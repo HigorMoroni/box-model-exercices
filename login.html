@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    body {
+      background-color: #7eaae0;
+    }
+    .card {
+      background-color: white;
+      width: 200px;
+      padding: 15px;
+      text-align: center;
+      margin-inline: auto;
+      border: 4px solid #0e4c9e9a;
+      border-radius: 5px;
+    }
+    h3 {
+      margin-block: 0px 20px;
+    }
+    input {
+      height: 30px;
+      width: 100%;
+      background-color: rgba(219, 219, 219, 0.341);
+      border: 1px solid lightgray;
+      border-radius: 3px;
+      padding-inline: 8px;
+      box-sizing: border-box;
+    }
+    input[type="password"] {
+      margin-block: 10px 15px;
+      font-size: 8px;
+    }
+    p {
+      text-align: center;
+      color: white;
+      font-size: 12px;
+    }
+    a {
+      color: burlywood;
+    }
+    button {
+      font-weight: bold;
+      font-size: 10px;
+      padding: 6px 29px;
+      color: white;
+      border-radius: 3px;
+    }
+    button.singin {
+      margin-right: 5px;
+      background-color: rgb(26, 183, 26);
+      border: 1px solid green;
+    }
+    button.singup {
+      background-color: rgb(56, 86, 233);
+      border: 1px solid blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h3>Dashboard</h3>
+    <div>
+      <input type="email" placeholder="email" /><br/>
+      <input type="password" placeholder="●●●●●" />
+      <div>
+        <button class="singin">Sing In</button>
+        <button class="singup">Sing Up</button>
+      </div>
+    </div>
+  </div>
+  <p>Forgot your password? <a href="#">Click Here!</a></p>
+</body>
+</html>
